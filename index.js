@@ -1,62 +1,30 @@
-const list = [
-	"https://www.google.com",
-	"https://www.facebook.com",
-	"https://www.instagram.com",
-	"https://www.reddit.com",
-	"https://www.netflix.com",
-	"https://www.youtube.com",
-	"https://www.amazon.com",
-	"https://www.wikipedia.com",
-	"https://www.ebay.com",
-	"https://www.twitch.tv",
-	"https://www.apple.com",
-	"https://www.microsoft.com",
-	"https://www.oracle.com",
-	"https://www.ibm.com",
-	"https://www.salesforce.com",
-	"https://www.dropbox.com",
-	"https://www.slack.com",
-	"https://www.discord.com",
-	"https://www.paypal.com",
-	"https://www.uber.com",
-	"https://www.airbnb.com",
-	"https://www.linkedin.com",
-	"https://www.pinterest.com",
-	"https://www.twitter.com",
-	"https://www.tiktok.com",
-	"https://www.snapchat.com",
-	"https://www.flickr.com",
-	"https://www.vimeo.com",
-	"https://www.soundcloud.com",
-	"https://www.github.com",
-	"https://www.stackoverflow.com",
-	"https://www.quora.com",
-	"https://www.tripadvisor.com",
-	"https://www.expedia.com",
-	"https://www.booking.com",
-	"https://www.yelp.com",
-	"https://www.zillow.com",
-	"https://www.craigslist.com",
-	"https://www.imdb.com",
-	"https://www.rotten tomatoes.com",
-	"https://www.metacritic.com",
-	"https://www.gamefaqs.com",
-	"https://www.ign.com",
-	"https://www.polygon.com",
-	"https://www.kotaku.com",
-	"https://www.rockpapershotgun.com",
-	"https://www.vice.com",
-	"https://www.buzzfeed.com",
-	"https://www.huffpost.com",
-	"https://www.cnbc.com",
-];
+const links = ['porn', 'xxx', 'adult+video', 'sex+video', 'erotic', 'explicit', 'hardcore', 'mature', 'fetish', 'amateur', 'homemade', 'public', 'cam', 'live', 'stream', 'compilation', 'clips', 'full+movie', 'free+porn', 'best+porn', 'top+porn', 'popular+porn', 'trending+porn', 'new+porn', 'hot+porn', 'classic+porn', 'vintage+porn', 'retro+porn', 'exclusive', 'uncensored', 'teen', 'college', 'student', 'MILF', 'cougar', 'GILF', 'granny', 'ebony', 'black', 'latina', 'asian', 'indian', 'arab', 'european', 'blonde', 'brunette', 'redhead', 'petite', 'big+tits', 'big+ass', 'chubby', 'curvy', 'fit', 'muscular', 'skinny', 'lean', 'tattooed', 'pierced', 'amateur+couple', 'real+couple', 'girlfriend', 'boyfriend', 'husband', 'wife', 'stranger', 'neighbor', 'roommate', 'coworker', 'boss', 'teacher', 'doctor', 'nurse', 'cop', 'maid', 'secretary', 'plumber', 'delivery', 'massage+therapist', 'yoga+instructor', 'personal+trainer', 'masturbation', 'oral+sex', 'fellatio', 'cunnilingus', 'deepthroat', 'blowjob', 'handjob', 'footjob', 'titjob', 'creampie', 'cumshot', 'facial', 'anal', 'dildo', 'vibrator', 'sex+toy', 'straps', 'squirting', 'orgasm', 'multiple+orgasms', 'moan', 'groans', 'licking', 'sucking', 'fisting', 'fingering', 'spanking', 'slapping', 'choking', 'gagging', 'kissing', 'grinding', 'rubbing', 'touching', 'teasing', 'stripping', 'undressing', 'shower', 'bath', 'pool', 'hot+tub', 'outdoor', 'car+sex', 'kitchen+sex', 'bathroom+sex', 'bedroom+sex', 'hotel+sex', 'vacation+sex', 'party+sex', 'club+sex', 'beach+sex', 'forest+sex', 'roleplay', 'fantasy', 'simulation', 'virtual+reality', 'VR', 'webcam', 'POV', 'voyeur', 'exhibitionist', 'hidden+cam', 'spy+cam', 'cheating', 'caught', 'blackmail', 'seduction', 'persuasion', 'surprise', 'first+time', 'threesome', 'foursome', 'orgy', 'gangbang', 'double+penetration', 'DP', 'triple+penetration', 'TP', 'swap', 'swingers', 'shared+wife', 'shared+girlfriend', 'group+sex', 'BDSM', 'dominant', 'submissive', 'master', 'slave', 'mistress', 'latex', 'leather', 'uniform', 'costume', 'cosplay', 'high+heels', 'stockings', 'lingerie', 'corset', 'bondage', 'tied+up', 'ropes', 'blindfolded', 'wax+play', 'electro+sex', 'crossdressing', 'trans', 'transgender', 'shemale', 'trap', 'futanari', 'femboy', 'gay', 'lesbian', 'bisexual', 'queer', 'anal+fetish', 'foot+fetish', 'breast+fetish', 'butt+fetish', 'armpit+fetish', 'belly+fetish', 'urine+fetish', 'scat', 'golden+shower', 'watersports', 'furries', 'plushies', 'inflation', 'lactation', 'cum+swallowing', 'urine+drinking', 'vomit', 'diapers', 'sissy', 'humiliation', 'degradation', 'praise', 'pet+play', 'beastiality', 'monster', 'tentacle', 'alien', 'vore', 'tickling', 'forced', 'unwilling', 'abuse', 'torture', 'rape', 'hardcore', 'extreme', 'intense', 'wild', 'raw', 'dirty', 'kinky', 'perverted', 'explicit', 'graphic', 'erotic', 'sexy', 'horny', 'passionate', 'loving', 'romantic', 'gentle', 'aggressive', 'rough', 'sweet', 'cute', 'innocent', 'shy', 'confident', 'dominant', 'submissive', 'playful', 'adventurous', 'experienced', 'inexperienced', 'discreet', 'secret', 'forbidden', 'taboo', 'scandalous', 'shocking', 'bizarre', 'strange', 'unusual', 'weird', 'unique', 'authentic', 'realistic', 'real+life', 'uncensored', 'full+length', 'HD', 'K', 'VR', 'D', 'POV', 'compilation', 'montage', 'loop', 'short', 'long', 'extended', 'bonus', 'deleted+scenes', 'behind+the+scenes', 'bloopers', 'interview', 'documentary', 'review', 'guide', 'tutorial', 'education', 'advice', 'tips', 'tricks', 'stories', 'confessions', 'fantasies', 'dreams', 'nightmares', 'art', 'drawing', 'animation', 'cartoon', 'anime', 'hentai', 'manga', 'game', 'visual+novel', 'text', 'audio', 'podcast', 'radio', 'webcam+model', 'onlyfans', 'patreon', 'subscription', 'membership', 'premium', 'free+trial', 'discount', 'coupon', 'promotion', 'deal', 'gift', 'code', 'voucher', 'login', 'sign+up', 'register', 'download', 'stream', 'watch', 'view', 'browse', 'search', 'filter', 'category', 'tag', 'channel', 'studio', 'performer', 'actress', 'actor', 'model', 'star', 'celebrity', 'famous', 'popular', 'rising+star', 'newcomer', 'legend', 'icon', 'queen', 'king', 'diva', 'idol', 'sensation', 'exclusive', 'rare', 'vintage', 'classic', 'collection', 'archive', 'library', 'database', 'list', 'top+', 'top+', 'best+of', 'compilation', 'playlist', 'marathon', 'binge', 'series', 'episode', 'season', 'saga', 'story', 'narrative', 'plot', 'twists', 'turns', 'surprise+ending', 'cliffhanger', 'happy+ending', 'sad+ending', 'bittersweet', 'emotional', 'heartwarming', 'shocking', 'disturbing', 'controversial', 'thoughtprovoking', 'challenging', 'artistic', 'office+sex', 'school+sex', 'library+sex', 'hospital+sex', 'airplane+sex', 'train+sex', 'bus+sex', 'public+transport+sex', 'elevator+sex', 'changing+room+sex', 'beach+party', 'pool+party', 'college+party', 'frat+party', 'sorority+party', 'dorm+room', 'campus', 'locker+room', 'gym', 'spa', 'sauna', 'steam+room', 'hot+springs', 'resort', 'cruise+ship', 'yacht', 'private+jet', 'mansion', 'cabin', 'tent', 'camping', 'hiking', 'nature', 'wilderness', 'forest', 'river', 'lake', 'ocean', 'waterfall', 'mountain', 'desert', 'abandoned+building', 'haunted+house', 'horror+theme', 'scifi+theme', 'fantasy+theme', 'historical+theme', 'medieval', 'ancient', 'futuristic', 'steampunk', 'cyberpunk', 'apocalyptic', 'zombie', 'vampire', 'werewolf', 'witch', 'wizard', 'alien+abduction', 'monster+attack', 'superhero', 'villain', 'secret+agent', 'spy', 'detective', 'criminal', 'prison', 'jail', 'police+station', 'court', 'lawyer', 'judge', 'witness', 'jury', 'interrogation', 'arrest', 'escape', 'chase', 'rescue', 'revenge', 'betrayal', 'redemption', 'transformation', 'growth', 'coming+of+age', 'first+love', 'heartbreak', 'reunion', 'reconciliation', 'forgiveness', 'celebration', 'holiday', 'Christmas', 'Halloween', 'Thanksgiving', 'New+Years+Eve', 'Valentines+Day', 'birthday', 'anniversary', 'wedding', 'penis', 'vagina', 'clitoris', 'nipples', 'breasts', 'ass', 'buttocks', 'thighs', 'legs', 'feet', 'toes', 'hands', 'fingers', 'mouth', 'tongue', 'lips', 'eyes', 'hair', 'abs', 'biceps', 'chest', 'back', 'neck', 'shoulders', 'stomach', 'navel', 'pubic+hair', 'shaved', 'trimmed', 'natural', 'wet', 'sweaty', 'oily', 'milky', 'creamy', 'juicy', 'tight', 'wide', 'open', 'spread', 'bent+over', 'doggy+style', 'missionary', 'cowgirl', 'reverse+cowgirl', 'spoon', 'standing', 'sitting', 'kneeling', 'crawling', 'studios', 'production', 'director', 'cameraman', 'lighting', 'set+design', 'casting', 'auditions', 'behind+the+scenes', 'interviews', 'conventions', 'awards', 'rankings', 'statistics', 'trends', 'analysis', 'data', 'research', 'market', 'revenue', 'advertising', 'marketing', 'promotion', 'distribution', 'streaming+platforms', 'tubesites', 'paid+sites', 'free+sites', 'VPN', 'privacy', 'incognito', 'safe+search', 'parental+controls', 'age+verification', 'legal+issues', 'censorship', 'regulation', 'ethics', 'impact', 'psychology', 'sociology', 'addiction', 'recovery', 'support+groups', 'mental+health', 'relationships', 'marriage', 'divorce', 'infidelity', 'communication', 'consent', 'healthy+sexuality', 'education', 'awareness', 'advocacy', 'activism', 'feminist+porn', 'ethical+porn', 'queer+porn', 'inclusive+porn', 'diverse+porn', 'alternative+porn', 'independent+porn', 'art+house+porn', 'experimental+porn', 'narrative+porn', 'character+driven+porn', 'story+focused+porn', 'emotional+porn', 'relatable+porn', 'authentic+porn', 'realistic+porn', 'unscripted+porn', 'improvisation', 'natural+lighting', 'natural+sound', 'no+makeup', 'real+bodies', 'body+positive', 'body+acceptance', 'selflove', 'confidence', 'empowerment', 'pleasure', 'joy', 'sensuality', 'intimacy', 'connection', 'chemistry', 'attraction', 'desire', 'lust', 'passion', 'arousal', 'climax', 'satisfaction', 'aftercare', 'relaxation', 'comfort', 'warmth', '+amateur+couple', '+amateur+teen', '+amateur+college', '+amateur+homemade', '+amateur+public', '+amateur+hidden+cam', '+amateur+girlfriend', '+amateur+wife', '+amateur+neighbors', '+amateur+party', '+amateur+voyeur', '+amateur+exhibitionist', '+amateur+casting', '+amateur+compilation', '+amateur+pov', '+lesbian+kissing', '+lesbian+scissoring', '+lesbian+tribadism', '+lesbian+strapon', '+lesbian+dildo', '+lesbian+threesome', '+lesbian+compilation', '+lesbian+feet', '+lesbian+massage', '+lesbian+oral+sex', '+lesbian+fingering', '+lesbian+squirting', '+lesbian+bondage', '+lesbian+cosplay', '+lesbian+shower', '+gay+anal', '+gay+bareback', '+gay+oral+sex', '+gay+compilation', '+gay+muscular', '+gay+hairy', '+gay+twink', '+gay+bear', '+gay+daddy', '+gay+young', '+gay+older', '+gay+rimming', '+gay+fisting', '+gay+cumshot', '+gay+bondage', '+crossdressing+fetish', '+latex+fetish', '+leather+fetish', '+uniform+fetish', '+cosplay+fetish', '+high+heels+fetish', '+stockings+fetish', '+lingerie+fetish', '+corset+fetish', '+bondage+fetish', '+tied+up+fetish', '+ropes+fetish', '+blindfolded+fetish', '+wax+play+fetish', '+electro+sex+fetish', '+tickling+fetish', '+humiliation+fetish', '+degradation+fetish', '+praise+fetish', '+pet+play+fetish', '+beastiality+fetish+illegal', '+monster+fetish', '+tentacle+fetish', '+alien+fetish', '+vore+fetish', '+furries+fetish', '+plushies+fetish', '+inflation+fetish', '+lactation+fetish', '+cum+swallowing+fetish', '+urine+drinking+fetish', '+vomit+fetish', '+diapers+fetish', '+sissy+fetish', '+doctor+patient+roleplay', '+nurse+patient+roleplay', '+teacher+student+roleplay', '+boss+secretary+roleplay', '+police+arrest+roleplay', '+maid+master+roleplay', '+delivery+person+roleplay', '+plumber+roleplay', '+massage+therapist+roleplay', '+personal+trainer+roleplay', '+yoga+instructor+roleplay', '+stepfamily+roleplay+often+searched+but+can+be+ethically+ambiguous', '+brother+sister+roleplay+often+searched+but+can+be+ethically+ambiguous', '+father+daughter+roleplay+often+searched+but+can+be+ethically+ambiguous', '+mother+son+roleplay+often+searched+but+can+be+ethically+ambiguous', '+stranger+encounter+roleplay', '+blind+date+roleplay', '+cheating+spouse+roleplay', '+revenge+roleplay', '+fantasy+roleplay', '+scifi+roleplay', '+steamy', '+sizzling', '+fiery', '+explosive', '+mindblowing', '+spectacular', '+incredible', '+amazing', '+fantastic', '+awesome', '+superb', '+excellent', '+pristine', '+perfect', '+ultimate', '+ultimate+collection', '+extreme+pleasure', '+intense+orgasm', '+deep+passion', '+wild+desire', '+raw+emotion', '+pure+ecstasy', '+sheer+bliss', '+heavenly', '+divine', '+sacred', '+forbidden+fruit', '+guilty+pleasure', '+secret+desire', '+hidden+gem', '+lost+footage', '+unreleased', '+never+before+seen', '+rare+find', '+cult+classic', '+underground', '+mainstream', '+commercial', '+indie', '+art+film', '+short+film', '+feature+film', '+series', '+documentary', '+docuporn', '+reality+porn', '+scripted', '+unscripted', '+improvisational', '+candid', '+natural', '+raw+and+uncut', '+directors+cut', '+extended+version', '+bonus+footage', '+deleted+scenes', '+behind+the+scenes', '+blooper+reel', '+commentary', '+interview', '+photoshoot', '+photoshoot+session', '+modeling', '+fashion', '+glamour', '+boudoir', '+artistic+nudity', '+nude+art', '+erotic+art', '+photography', '+painting', '+sculpture', '+literature', '+poetry', '+music', '+dance', '+performance+art', '+live+performance', '+stage+show', '+burlesque', '+pole+dance', '+striptease', '+lap+dance', '+table+dance', '+private+dance', '+peep+show', '+fetish+show', '+sex+club', '+swingers+club', '+bathhouse', '+gay+bar', '+lesbian+bar', '+queer+club', '+adult+store', '+sex+shop', '+sex+toy+shop', '+lingerie+shop', '+adult+magazine', '+adult+book', '+erotic+novel', '+fanfiction', '+smut+fiction', '+romance+novel', '+erotica+short+story', '+explicit+manga', '+explicit+anime', '+explicit+cartoon', '+D+animated+sex', '+animated+sex', '+VR+sex+game', '+adult+video+game', '+sex+simulation+game', '+virtual+girlfriend', '+virtual+boyfriend', '+AI+companion', '+chatbot+sex', '+deepfake+often+involves+nonconsensual+content+and+is+illegal', '+revenge+porn+illegal', '+nonconsensual+illegal', '+illegal+porn+illegal', '+child+porn+illegal+and+harmful+report+immediately+if+encountered', '+animal+porn+illegal+and+harmful+report+immediately+if+encountered', '+actual+violence+illegal+and+harmful+report+immediately+if+encountered', '+snuff+illegal+and+harmful+report+immediately+if+encountered', '+how+to+find+free+porn', '+best+porn+sites+', '+safest+porn+sites', '+anonymous+porn+Browse', '+porn+industry+news', '+effects+of+porn+on+relationships', '+porn+addiction+help', '+ethical+porn+consumption', '+history+of+porn', '+psychology+of+porn+use', '+sociological+impact+of+porn', '+technology+in+porn+industry', '+future+of+porn', '+VR+porn+experience', '+interactive+porn+games', '+adult+content+creators', '+how+to+make+adult+videos', '+legal+aspects+of+porn', '+censorship+in+adult+entertainment', '+age+verification+for+porn+sites', '+parental+controls+for+adult+content', '+sex+education+and+porn', '+body+positivity+in+porn', '+diversity+in+adult+films', '+consent+in+explicit+content', '+responsible+porn+viewing']
+
+const slider = document.querySelector('.form-slider-slider');
+const numberInput = document.querySelector('.form-slider-number');
+
+slider.addEventListener('input', () => {
+	numberInput.value = slider.value;
+});
+
+numberInput.addEventListener('input', () => {
+	const value = parseFloat(numberInput.value);
+	const sliderMin = parseFloat(slider.min);
+	const sliderMax = parseFloat(slider.max);
+
+	if (value >= sliderMin && value <= sliderMax) {
+		slider.value = value;
+	} else if (value < sliderMin) {
+		slider.value = sliderMin;
+	} else if (value > sliderMax) {
+		slider.value = sliderMax;
+	}
+});
 
 function run() {
-	console.log("d");
-	for (let i of list) {
-		console.log("s");
+	for (let i = 0; i < document.querySelector('.form-slider-number').value; i++) {
 		setTimeout(() => {
-			window.open(i, "_blank");
+			window.open(`https://www.pornhub.com/video/search?search=${links[i]}`, "_blank");
 		}, 2500);
 	}
 }

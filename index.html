@@ -4,9 +4,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>History</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<button onclick="run()">click</button>
+	<h1>Search history ruiner</h1>
+	
+	<form onsubmit="event.preventDefault()" class="form">
+		<label for="count">Search amount</label>
+		<div class="form-slider">
+			<input type="number" class="form-slider-number" placeholder="500" min="1" max="1000" id="count" maxlength="3" id="amount">
+			<input type="range" class="form-slider-slider" placeholder="500" min="1" max="500" name="" id="amount-slider">
+		</div>
+		<button class="form-submit"  onclick="run(event)">click</button>
+	</form>
 
 	<script src="index.js"></script>
 </body>
